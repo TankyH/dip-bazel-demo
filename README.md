@@ -10,6 +10,12 @@
 SpiderRunner -> Spider -> SpiderResponse -> Notify
 ```
 
-3. using bazel the package
+3. using bazel to package
+
+```
+bazel build //:SpiderRunner
+
+./bazel-bin/SpiderRunner
+```
 
 

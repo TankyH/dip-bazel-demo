@@ -16,11 +16,9 @@ java_library(
 java_library(
     name = "SpiderResponse",
     srcs = ["com/dip/demo/spider/SpiderResponse.java"],
-    deps = [],
 )
 
 java_library(
     name = "Notify",
-    srcs = ["com/dip/demo/nontification/Notify.java"],
-    deps = [],
+    srcs = ["com/dip/demo/notification/Notify.java"],
 )

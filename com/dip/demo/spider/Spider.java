@@ -2,6 +2,9 @@ package com.dip.demo.spider;
 
 public class Spider {
 
+    /**
+     * fake spider simulate web crawling
+     */
     private String url;
     private Double price;
     private Double amount;
@@ -21,7 +24,6 @@ public class Spider {
         rsp.setMessage(message);
         return rsp;
     }
-
 
     public String getUrl() {
         return url;
