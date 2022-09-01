@@ -1,1 +1,15 @@
 # dip-bazel-demo
+
+1. this demo simulates a web spider crawling a website
+
+   demo fake a web crawler comparing the price and amount of a good, and send a notify to buy it.
+
+2. project structure outlook shows below
+
+```
+SpiderRunner -> Spider -> SpiderResponse -> Notify
+```
+
+3. using bazel the package
+
+
