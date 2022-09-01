@@ -2,9 +2,7 @@ load("@rules_java//java:defs.bzl", "java_binary")
 
 java_library(
     name = "Spider",
-    srcs = glob(
-        ["**/*.java"],
-    ),
+    srcs = glob(["**/*.java"]),
 )
 
 java_binary(
