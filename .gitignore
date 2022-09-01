@@ -28,7 +28,7 @@ hs_err_pid*
 
 # bazel
 .ijwb/
-bazel-*/
+bazel-*
 
 # py env
 venv/
