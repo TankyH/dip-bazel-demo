@@ -19,7 +19,3 @@
    ./bazel-bin/SpiderRunner
    ```
 
-### TODO
-1. to better understand bazel, try to add bazel BUILD in each package, avoid using `srcs = glob(["**/*.java"])` .
-
-
